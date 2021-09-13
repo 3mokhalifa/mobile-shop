@@ -1,0 +1,54 @@
+
+.nav-item:hover{
+    border-bottom: 2px solid black;
+    transition-duration: .5s;
+}
+
+.home{
+    background-image: linear-gradient(to right bottom,blue,rgba(114, 197, 114, 0.712));
+}
+
+nav{
+    box-shadow: 2px -2px 0 5px rgba(0, 0, 255, 0.815);
+}
+
+.card-img-top {
+    max-height: 300px;
+    min-height: 300px;
+    
+}
+.macbook{
+    transform: translateY(-200px);
+}
+
+.home-row{
+    margin-bottom: 200px;
+}
+.mac-row{
+    margin-bottom: -100px;
+}
+
+.btn-show{
+    background-image: linear-gradient(to right bottom,blue,rgba(114, 197, 114, 0.712));
+    color: white;
+    border: none;
+    padding: 20px 15px 20px 15px;
+}
+
+.btn-show:hover{
+    color: rgb(153, 255, 0);
+}
+.card:hover{
+    transition: all .4s;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.39);
+}
+.main-btn:hover{
+    color: rgb(153, 255, 0);
+
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
